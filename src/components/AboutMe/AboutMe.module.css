@@ -1,0 +1,35 @@
+.aboutMe_container {
+    display: flex;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.main {
+    padding: 10px 10px;
+    width: 80%;
+}
+
+.img {
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+
+.head {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+.head2 {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 30px;
+}

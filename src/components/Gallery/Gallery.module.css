@@ -1,0 +1,38 @@
+.text_container {
+    margin-left: 1%;
+}
+
+.photo_container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo_item {
+    margin: 0 15px;
+    position: relative;
+}
+
+.btn {
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 22px;
+    padding-top: 62px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.nav {
+    text-decoration: none;
+}
+
+.btn_text {
+    background-color: rgba(255, 255, 255, .50);
+    border: 1px solid black;
+    border-radius: 10px;
+}
